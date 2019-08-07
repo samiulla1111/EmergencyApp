@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Emergency Application</string>
+    <string name="about">Hi,This is Shaik Samiulla .I am percieving my B.Tech(CSE) in LOVELY PROFESSIONAL UNIVERSITY(LPU),
+        this is my First appliation(EMERGENCY APP). </string>
+
+    <string-array name="contacts">
+        <item>Contact_1</item>
+        <item>Contact_2</item>
+        <item>Contact_3</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

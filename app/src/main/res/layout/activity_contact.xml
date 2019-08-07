@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E86C1"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="334dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Emergency"
+        android:textAlignment="center"
+        android:textColor="#34495E"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:background="#85C1E9"
+            android:textAlignment="center"
+            android:layout_marginLeft="30dp"
+            android:text="Select Contact"
+            android:textSize="20sp" />
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp">
+
+
+        </Spinner>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:background="#85C1E9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Contact name"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#85C1E9"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="textPersonName|phone"
+
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="50dp"
+        android:background="#85C1E9"
+        android:ems="10"
+        android:text="SAVE"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+
+</LinearLayout>

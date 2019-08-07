@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E86C1"
+    android:orientation="vertical"
+    tools:context=".welcomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="334dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Emergency"
+        android:textAlignment="center"
+        android:textColor="#34495E"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#85C1E9"
+        android:hint="contact 1"
+        android:inputType="phone"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#85C1E9"
+        android:hint="contact 2"
+        android:inputType="phone"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#85C1E9"
+        android:hint="contact 3"
+        android:inputType="phone"
+        android:textSize="30dp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:layout_width="168dp"-->
+        <!--android:layout_height="68dp"-->
+        <!--android:layout_marginLeft="95dp"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:background="#85C1E9"-->
+        <!--android:ems="10"-->
+        <!---->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="20dp"-->
+        <!--android:text="Current Loc" />-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="168dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="30dp"
+        android:background="#85C1E9"
+        android:ems="10"
+        android:text="Edit"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button3"
+
+        android:layout_width="168dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="30dp"
+        android:background="#85C1E9"
+        android:ems="10"
+        android:text="send"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+</LinearLayout>
